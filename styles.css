@@ -1,0 +1,477 @@
+/* fobt pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;300;500;700;800&family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+
+body {
+    background-color: #e5e5f7;
+    background: radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5f7 20%, #e5e5f7 80%, transparent 80%, transparent) 35px 35px, linear-gradient(#19191c 2.8000000000000003px, transparent 2.8000000000000003px) 0 -1.4000000000000001px, linear-gradient(90deg, #19191c 2.8000000000000003px, #e5e5f7 2.8000000000000003px) -1.4000000000000001px 0;
+    background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.contenedor__trivia{
+    border-radius: 25px 25px 0 0;
+    background-color: black;
+    color: #fbfbfb;
+}
+.pnt{
+    color: #0b9fb3;
+    padding: 0 5px
+}
+.titulo__marca {
+    font-size: 10px;
+}
+
+.subtitulo {
+    color:#fe1e74;
+    margin-top: 3px;
+    font-family: "pacifico";
+    font-size: 30px;
+}
+.indi{
+    margin-top: 60px;
+}
+.section_todo{
+    display: none;
+}
+span{
+    font-size: 25PX;
+    font-weight: 600;
+    color: #131313;
+}
+.contenedor {
+        overflow: hidden;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow:  0 8px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    height: 480px;
+    width: 50%;
+}
+.final{
+    height:480px ;
+    bottom: 60px;
+}
+.opcion{
+    margin: 60px auto;
+    height:460px ;
+}
+/* ssssssssssssssssssssssssssssssssssssssssssssss */
+.img_p{
+    border: #000000 5px solid;
+    width:530px ;
+    height:230px;
+    
+}
+.preg {
+    margin-top:25px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow:  0 8px 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    height: 550px;
+    width: 60%;
+
+}
+.contenedor__parrafo {
+    padding: 50px 10px 0;
+}
+/* input */
+.input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 20px;
+    margin: 20px 0;
+    width: 70%;
+}
+
+input {
+    font-size: 16px
+}
+/* boton  */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.boton {
+    color:white;
+    background-color: #080808;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%
+}
+
+.btn_sh_hd button{
+    position: relative;
+    top: -45px;
+    color:white;
+    background-color:#ff2e6d ;
+    border-radius: 10px;
+    border: 1px solid#080808 ;
+    font-weight: 800;
+    font-size: 25px;
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+.btn_sh_hd button:hover{
+    background-color:rgba(224, 224, 224, 0.89);
+    cursor: pointer;
+    color: #000;
+}
+
+.boton:hover{
+    background-color:#fe1e74;
+    color: white;
+    border: 1px  white solid
+}
+
+
+.pregunta {
+    display:block;
+    font-weight: 400;
+}
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.puntos {
+    font-size:18px;
+    margin: 10px 0;
+}
+.imgDeco {
+    width:220px;
+    padding: 45px 0;
+}
+
+.puntajeTitulo {
+    padding: 20px 0;
+    color:  #fe1e74;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.puntajes {
+    color: #e67697;
+    padding: 15px 0;
+    font-family: "Gluten";
+    font-size: 40px;
+    font-weight: bold;
+}
+.over{
+    font-weight: 500;
+    color: #000000;
+}
+
+.botonVolver:hover{
+    background-color:#fe1e74;
+    color: white;
+    border: 1px solid white
+}
+
+
+
+
+
+.botonVolver {
+    background-color:black ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 800;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px auto;
+    width: 40%
+}
+
+
+.pregunta {
+    font-weight: 600;
+}
+.peliculas,.series,.kdramas{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.peliculas button,.series button,.kdramas button{
+    margin: 10px;
+    padding: 2px;
+    background-color: white;
+    border-radius: 8px;
+    width: 60%;
+}
+
+
+
+.preg_Tri:hover {
+    background-color:#fe1e74a6;
+    color: white;
+    border: 2px solid #7e7e7e;
+    width: 61.5%;
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+.correcta{
+    background-color: #51e723;
+    width: 61.5%;
+    transition: all 0.4s;
+
+}
+.incorrecta{
+    background-color: #c83c3c;
+    width: 61.5%;
+    transition: all 0.4s;
+
+}
+.boton_cont{
+    padding: 10px 10px;
+    color: white;
+    background-color: black;
+    margin-top: -0px;
+    border-radius: 10px;
+}
+.boton_cont:hover {
+    background-color:#080205;
+    color: white;
+    border: 1px solid white
+}
+.cont_punt{
+    text-align:center;
+    background-color: #fff;
+    width: 260PX;
+    height: 250PX;
+    border: 8px #f3c9c9 dashed;
+    position: relative;
+    bottom: -120px;
+    padding:5px;
+    cursor: pointer;
+    display: none;
+    margin-right: 60px;
+}
+
+.use , #punt{
+    position: relative;
+    bottom: -5px;
+    color: #1d5580;
+    font-size: 22px;
+}
+#puntajes_todo{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+#puntajes_todo .subtitulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.score{
+    margin-top: 10px;
+    font-weight: 800;
+    color: #3f3f3f;
+    font-size: 30px;
+    font-family: "Pacifico";
+}
+
+#puntajes_todo #punt{
+    font-size: 45px;
+    font-weight: 400;
+}
+#punt_10{
+    color: #39b2c2;
+    font-size: 70px;
+    margin-top: 20PX;
+}
+#puntajes_todo .botones{
+    margin-top: 20px;
+}
+/* -----------responsive ------------------ */
+/* mi pantalla es de 1080 lo voy a adaptar a distintas pantallas */
+@media screen and (max-width:1025px) {
+    .cont_punt{
+        margin-right: 35px;
+    }
+}
+/* 900 pixeles para table*/
+@media screen and (max-width:950px) {
+    .cont_punt{
+        margin-right: 28px;
+    }
+}
+@media screen and (max-width:870px) {
+    .cont_punt{
+        width: 180px;
+        height: 250px;
+        bottom: -150px;
+    }
+}
+@media screen and (max-width:770px) {
+    #opciones .botones{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:760px) {
+    .img_p{
+        background-position: center;/* 👉para centrar la img*/
+        background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
+        background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
+        background-attachment: fixed;
+        width: 90%;
+        height: 200px;
+        border: #000 1px solid;
+    }
+    .cont_punt{
+        text-align: center;
+        width: 280px;
+        position: absolute;
+        bottom: -430px;
+        /* left: 255px; */
+        margin-bottom: 0px;
+        width: 80%;
+        left: 10%;
+        
+    }
+    .cont_punt p {
+        font-size: 25px;
+    }
+    .contenedor{
+        display: block;
+    }
+    .contenedor {
+        width: 90%;
+    }
+    #opciones .botones{
+        margin-top: 0px;
+    }
+}
+/* para celular */
+@media screen and (max-width:384px) {
+    .contenedor__parrafo{
+        padding-top: 10px;
+    }
+    .img_p{
+        background-position: center;/* 👉para centrar la img*/
+        background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
+        background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
+        background-attachment: fixed;
+        width: 100%;
+        height: 200px;
+        border: #000 1px solid;
+    }
+}
+@media screen and (max-width:360px) {
+    .cont_punt{
+        bottom: -0px;
+    }
+    .cont_punt p {
+        font-size: 20px;
+    }
+
+}
+@media screen and (max-width:350px) {
+    .cont_punt{
+        bottom: -480px;
+    }
+    .btn_sh_hd{
+        margin-top: 70px;
+    }
+    .contenedor p {
+        font-size: 15px;
+    }
+    #button{
+        width: 80%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:338px) {
+    .cont_punt p {
+        font-size: 20px;
+    }
+    #opciones .botones{
+        margin-top: 0px;
+    }
+    .subtitulo{
+        font-size: 27px;
+    }
+    #categoria{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:315px) {
+    .cont_punt{
+        bottom: -520px;
+        height: 290px;
+    }
+    .btn_sh_hd{
+        margin-top: 40px;
+    }
+    .contenedor p {
+        font-size: 15px;
+    }
+    #button{
+        width: 80%;
+        font-size: 10px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    .botones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .boton{
+        font-size: 10px;
+        height: 40px;
+        width: 100%;
+    }
+    h2 ,.puntos{
+        font-size: 15px;
+    }
+    .pnt{
+        font-size: 20px;
+    }
+    .img_p{
+        background-position: center;/* 👉para centrar la img*/
+        background-repeat: no-repeat;/*👉 sirve para que no se repita la img en caso no entre*/
+        background-size: cover;/*👉sirve para que entre en toda el espacio de la cja*/
+        background-attachment: fixed;
+        width: 100%;
+        height: 200px;
+        border: #000 1px solid;
+    }
+    .contenedor{
+        height: 530px;
+    }
+    span{
+        font-size: 15px;
+    }
+    #puntajes_todo #finde{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    #punt_10{
+        margin-top: 0px;
+    }
+}
